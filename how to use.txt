@@ -1,0 +1,20 @@
+--use cd command to toggle and ls to view the present entities
+--use git clone followed by repository name to make a repo copy
+--git add (file name)---to add something 
+--then git status to see status
+--then git commit -m "comment" filename
+--git push -u origin master
+--git rm -r filename to remove
+also can use --cached in case u want to leave it in local repository
+done
+#forking and making a pull request:
+-fork it!
+-Make a local clone:
+-git clone https://github.com/{YOUR_USERNAME}/nothing-private.git
+-Switch to the directory: cd nothing-private
+-Create your new branch: git checkout -b feature name
+-Make necessary changes to the source code
+-Add changes to git index by using git add --all .
+-Commit your changes: git commit -am 'Added new feature'
+-Push to the branch: git push
+-Submit a new pull request 😄
